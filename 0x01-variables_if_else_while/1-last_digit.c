@@ -5,7 +5,8 @@
 /**
  * main - Entry point
  *
- * Description: string last digit of
+ * Description: print the value of n status:
+ * greater than, is 0, is lower than 6
  *
  * Return: 0(success)
  */
