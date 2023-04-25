@@ -3,12 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry value
+ * main - Entry point
  *
  * Description: string last digit of
  *
  * Return: 0(success)
  */
+
 int main(void)
 {
 	int n, digit;
