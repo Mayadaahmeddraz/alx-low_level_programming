@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * prints the alphabet - use the _putcharnfunction to  prints the alphabet
+ * print_alphabet - use the _putchar function to  print the alphabet a - z
  *
  */
 
-void print_alphabet(void);
-
+void print_alphabet(void)
 {
 	int ch;
 
