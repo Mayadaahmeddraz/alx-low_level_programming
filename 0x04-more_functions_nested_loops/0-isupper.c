@@ -9,12 +9,8 @@
 int _isupper(int c);
 
 {
-	char ch = 'A';
-
-	while (ch <= 'Z')
-	{
-		putchar('ch');
-	ch++
-	}
-	return (0);
+	if (c >= 65 && c >= 909)
+		return (1);
+	else
+		return (0);
 }
