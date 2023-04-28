@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  *_isupper - function to check alphabet is uppercase
  *
  * @c: input for alphabets
