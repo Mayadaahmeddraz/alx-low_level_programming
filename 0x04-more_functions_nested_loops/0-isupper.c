@@ -1,9 +1,11 @@
 #include "main.h"
 
 /*
- *_isupper - function to print alphapets with uppercase
+ *_isupper - function to check alphabet is uppercase
  *
- *Return: 0 always
+ * @c: input for alphabets
+ *
+ *Return: 1 if its upper case 0 if else
  */
 
 int _isupper(int c);
