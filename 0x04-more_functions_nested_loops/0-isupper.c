@@ -13,7 +13,7 @@ int _isupper(int c);
 
 	while (ch <= 'Z')
 	{
-		putchar(ch);
+		putchar('ch');
 	ch++
 	}
 	return (0);
