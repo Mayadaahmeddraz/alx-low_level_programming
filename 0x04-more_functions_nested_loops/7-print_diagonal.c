@@ -1,11 +1,15 @@
-#includ "main.h"
+#include "main.h"
 
 /**
- *print_diagonal - draw adiagnal line by space and (\) .
+ * print_diagonal - draw adiagnal line by space and (\)
+ *
  *@n: number of diagnal lines
+ *
+ *Return: empty
  */
 
 void print_diagonal(int n)
+
 {
 	int x, y;
 
