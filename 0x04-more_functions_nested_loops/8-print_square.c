@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- *print_square - print n square as n nums of times
- *@size: the num of squares of time used
+ *print_square - print n square as n numbers of times
+ *@size: the num of squares/numbers of time used
  *Return: empty
  */
 
 void print_square(int size)
+
 {
 	int x, y;
 
@@ -22,7 +23,7 @@ void print_square(int size)
 	{
 	_putchar(35);
 	}
-	-putchar('\n');
+	_putchar('\n');
 	}
 	}
 }
