@@ -5,7 +5,7 @@
  *
  *Description: write the lowercase alphabets without q & c
  *
- *Return: 1 (not success)
+ *Return: 1 or 0 (not success)
  */
 
 int main(void)
@@ -18,8 +18,9 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
-
+	{
 			if (ch == 'q' || ch == 'e')
-
 			return (1);
+	}
+	return (0);
 }
