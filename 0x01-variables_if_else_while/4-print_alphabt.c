@@ -18,11 +18,9 @@ int main(void)
 		if (ch == 'e' || ch == 'q')
 			return (1);
 		}
-		{
 			else
 		putchar(ch);
-		ch++;
-	}
+		ch++;}
 	}
 	putchar('\n');
 	return (0);
