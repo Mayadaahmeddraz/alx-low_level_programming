@@ -5,20 +5,21 @@
  *
  *Description: write the lowercase alphabets without q & c
  *
- *Return: 1 or 0 (not success)
+ *Return: 0 (success)
  */
 
 int main(void)
 {
-	char ch = 'a';
+	char ch;
 
-	while (ch <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
+
 	{
-		if (ch == 'e' || ch == 'q')
-			return (1);
+		if (ch != 'e' || ch != 'q')
+
 		putchar(ch);
-		ch++;
 	}
+
 	putchar('\n');
 	return (0);
 }
